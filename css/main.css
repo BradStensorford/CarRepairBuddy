@@ -1,179 +1,309 @@
-/*
- * This css file contains the following customizations
- * App -> For the whole UI, allowing it to be responsive
- * Map -> For the map itself that renders using Openlayers with assistance of QGIS
- * Nav -> For the App's navigation features
- *
- * Please follow this standards if you wish to add any changes related to App, Map or Nav
- * If in such case you want to add things that do not relate to this, it is much more better
- * to create a new css file and add it from there
- */
+/*------------------------------------------
+MENU NAVBAR SIDEBAR
+------------------------------------------*/
 
-/*[App] -- UI Customizations for search.html */
-
-.window > ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #7f8aff;
-  	height:180px;
-  	font-family: Merriweather;
-}
-
-.window > li {
-  float: left;
-	height:180px;
-	width:130px;
-	text-align:center;
-}
-
-.window > li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.window > li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-}
-
-.window > li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.logo {
-    position: absolute;
-		width:12%;
-		height:auto;
-		float:left;
-		padding-left:50px;
-    vertical-align: middle;
-    top: 0px;
-}
-.title {
-		font-family:Merriweather UltraBold;
-		text-align:center;
-		color:aliceblue;
-		font-size:24pt;
-    vertical-align: middle;
-}
-
-.header {
-	height:15%;
-	background-color: rgba(127, 138, 255, 0.2);
-}
-
-
-.headerTable {
-  height: 100%;
+.navbar-custom {
+  background-color: #3F51B5;
+  color: white;
+  border-radius: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
-  display: table;
+  z-index: 997;
 }
 
-.headerCell {
-  display: table-cell;
-  vertical-align: middle;
-}
-	
-
-.btnCover {
-
-	display: block;
-	min-width: 200px;
-	margin-left: auto;
-	margin-right: auto;
+.navbar {
+    padding: 0px 15px;
+    margin-bottom: 0;
+    background: #3F51B5;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.btn {
-  background: #3498db;
-  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-  background-image: -o-linear-gradient(top, #3498db, #2980b9);
-  background-image: linear-gradient(to bottom, #3498db, #2980b9);
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
-  border-radius: 0px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 38px;
-  padding: 10px 20px 10px 20px;
-  border: solid #1f628d 5px;
-  text-decoration: none;
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
 }
 
-.btn:hover {
-  background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
-}
-/*[App] -- Ends here*/
-/*[Map]Some css customizations for the maps plugin */
-.map {
-  background: #f8f4f0;
-  height: 85% !important
+#sidebar a,
+#sidebar a:hover,
+#sidebar a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
 }
 
-.geolocate {
-    top: 65px;
-    left: .5em;
-}
-.ol-touch .geolocate {
-    top: 80px;
-}
-
-.ol-attribution {
-
-  height: 2.1em !important;
-}
-
-.ol-attribution > ul:nth-child(1) {
-
-  background-color: rgba(0, 0, 0, 0);
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 999;
+    background: #3F51B5;
+    color: #fff;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
-.ol-attribution > ul:nth-child(1) > li:nth-child(1) {
-
-  width: auto;
-  margin-top: 10px;
+#sidebar.active {
+    left: 0;
 }
 
-.ol-attribution > ul:nth-child(1) > li:nth-child(2) {
-
-  width: auto;
-  display: none;
+#sidebar h3 {
+    margin: 4px 0px;
+    font-size: 18px;
 }
 
-/*[Map] -- Ends here*/
+#sidebar .sidebar-header {
+    padding: 10px 10px;
+    background: #303F9F;
+}
 
-button.drawer-toggle {
-  height: 9%;
+#sidebar ul.components {
+    padding: 0;
+    border-top: 1px solid #BDBDBD;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #303F9F;
+    background: #fff;
+}
+
+#sidebar ul li.active>a,
+#sidebar a[aria-expanded="true"] {
+    color: #fff;
+    background: #303F9F;
+}
+
+
+#sidebar a[data-toggle="collapse"] {
+    position: relative;
+}
+
+#sidebar a[aria-expanded="false"]::before,
+#sidebar a[aria-expanded="true"]::before {
+    content: '\e259';
+    display: block;
+    position: absolute;
+    right: 20px;
+    font-family: 'Glyphicons Halflings';
+    font-size: 0.6em;
+}
+
+#sidebar a[aria-expanded="true"]::before {
+    content: '\e260';
+}
+
+#sidebar ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #009688;
+}
+
+.sidebar-profile {
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.sidebar-profile .image-parent {
+    margin-bottom: 5px;
+}
+
+.sidebar-profile .image-parent img {
+	width: 75px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+.sidebar-profile .img-bordered {
+    border: 3px solid #009688;
+}
+
+.sidebar-profile .content .heading {
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.sidebar-profile .content .subheading {
+    font-size: 12px;
+    text-align: center;
+}
+
+
+
+/*------------------------------------------
+FONT AWESOME
+------------------------------------------*/
+
+#dismiss .fa {
+	margin-top: 2px;
+    font-size: 24px;
+}
+
+#sidebar ul li a .fa{
+	margin: 0 10px;
+	padding: 0;
+}
+
+
+/*------------------------------------------
+CONTENT
+------------------------------------------*/
+
+#content {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#data-content-map{
+	width: 100vw;
+}
+
+#data-content-norm0{
+    width: 100vw;
+}
+
+#data-content-norm1{
+    margin-top: 50px;
+    width: 100vw;
+    position: fixed;
+    padding: 10px;
+}
+
+#data-content-norm2{
+    text-align: justify;
+    padding: 0px 20px;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 100px;
+    z-index: -10;
+
+}
+
+#data-content-norm{
+	margin-top: 50px;
+	height: 92vh;
+	width: 100vw;
+	padding: 5px 16px;
+}
+
+#data-content-norm hr{
+    margin: 0px 2px 5px 2px;
+}
+
+/*------------------------------------------
+OVERLAY
+------------------------------------------*/
+
+.overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 998;
+    display: none;
+}
+
+
+/*------------------------------------------
+DISMISS
+------------------------------------------*/
+
+#dismiss {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    text-align: center;
+    background: #7386D5;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#dismiss:hover {
+    background: #fff;
+    color: #337386D5;
+}
+
+
+/*------------------------------------------
+MAP
+------------------------------------------*/
+
+#map_canvas{
+    background: #33bdbdbd;
+	height: 92vh;
+    width: 100%;
+}
+
+.navbar-map{
+    width: 100vw;
+    height: 55px;
+    padding: 5px 15px;
+    background-color: #3F51B5;
+}
+
+/*------------------------------------------
+LIST
+------------------------------------------*/
+
+#ListItems li a{
+    text-decoration: none;
+}
+
+#ListItems li a:hover, #ListItems li a:focus{
+    text-decoration: none;
+}
+
+/*------------------------------------------
+LOADER
+------------------------------------------*/
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
