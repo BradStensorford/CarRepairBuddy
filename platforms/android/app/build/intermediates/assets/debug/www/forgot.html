@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- ESSENTIALS STYLESHEET-->
+    <link rel="stylesheet" type="text/css" href="bootstrap_dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome_dist/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="jquery_mcustom_scrollbar_dist/css/jquery.mCustomScrollbar.css">
+    <!-- MY STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Car Repair Buddy</title>
+</head>
+
+<body>
+    <div id="content">
+        <nav class="navbar navbar-custom">
+            <button type="button" onclick="window.location.replace('login.html')" id="loginButtonBack" class="btn btn-info navbar-btn pull-left">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </button>
+            <h4 class="pull-left" style="margin: 15px 10px 5px 10px;">FORGOT PASSWORD</h4>
+        </nav>
+        <div id="data-content-norm">
+            <label>RESET YOUR PASSWORD</label>
+            <hr>
+            <div id="alertDiv"></div>
+            <div class="form-group">
+                <label for="forgotInputEmail">Your Email please.</label>
+                <input class="form-control" type="text" id="forgotInputEmail" placeholder="Your Email">
+                <p class="text-help">Note: The email may be spammed or in your inbox.</p>
+            </div>
+            <button class="btn btn-block btn-primary" type="button" id="forgotButtonEmail">RESET PASSWORD</button>
+        </div>
+    </div>
+    <!-- ESSENTIAL SCRIPTS -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="bootstrap_dist/js/jquery-1.12.4.min.js "></script>
+    <script src="bootstrap_dist/js/bootstrap.js "></script>
+    <script src="bootstrap_select_dist/js/bootstrap-select.js "></script>
+    <script src="jquery_mcustom_scrollbar_dist/js/jquery.mCustomScrollbar.js "></script>
+    <!-- FIREBASE -->
+    <script src="firebase_dist/firebase-app.js"></script>
+    <script src="firebase_dist/firebase-auth.js"></script>
+    <script src="firebase_dist/firebase-database.js"></script>
+    <!-- MY SCRIPT -->
+    <script src="js/forgot.js "></script>
+</body>
+
+</html>

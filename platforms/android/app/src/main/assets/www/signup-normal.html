@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- ESSENTIALS STYLESHEET-->
+    <link rel="stylesheet" type="text/css" href="bootstrap_dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap_validator_dist/css/bootstrapValidator.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap_select_dist/css/bootstrap-select.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome_dist/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="jquery_mcustom_scrollbar_dist/css/jquery.mCustomScrollbar.css">
+    <!-- MY STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Car Repair Buddy</title>
+</head>
+
+<body>
+    <div id="content">
+        <nav class="navbar navbar-custom">
+            <button type="button" onclick="window.location.replace('login.html')" id="loginButtonBack" class="btn btn-info navbar-btn pull-left">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </button>
+            <h4 class="pull-left" style="margin: 15px 10px 5px 10px;">SIGN UP</h4>
+        </nav>
+        <div id="data-content-norm">
+            <div class="container-fluid" style="margin-bottom: 15px">
+                <form id="formUpDataNormal">
+                    <label>YOUR INFORMATION AREA</label>
+                    <hr>
+                    <div class="form-group">
+                        <div id="messages"></div>
+                    </div>
+                    <img id="smallImage" src="img/sample-profile.jpg" style="width:150px;height:150px;margin: 0 auto;" class="img-circle img-responsive">
+                    <div class="form-group">
+                        <label for="InputProfilePic">GET YOUR BEST IMAGE</label>
+                        <input id="InputProfilePic" type="file" onchange="preview_image(event)" name="InputProfilePic">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputFirstName">First Name</label>
+                        <input type="text" class="form-control" id="InputFirstName" placeholder="Your First Name" name="inputFirstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputMiddleName">Middle Name</label>
+                        <input type="text" class="form-control" id="InputMiddleName" placeholder="Your Middle Name" name="inputMiddlename">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputLastName">Last Name</label>
+                        <input type="text" class="form-control" id="InputLastName" placeholder="You Last Name" name="inputLastname">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputLoginPassword">Password</label>
+                        <input type="password" class="form-control" id="InputLoginPassword" placeholder="Your desired password" name="inputPassword">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputLoginPasswordRe">Retype Password</label>
+                        <input type="password" class="form-control" id="InputLoginPasswordRe" placeholder="Retype the password" name="inputPasswordRe">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputEmail">Email</label>
+                        <input type="email" class="form-control" id="InputEmail" placeholder="Your Email" name="inputEmail">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputContactNumber">Contact Number</label>
+                        <input type="tel" class="form-control" id="InputContactNumber" placeholder="Your Contact Number" name="inputContactNumber">
+                        <p class="help-block">Please start with 0. ex. 09123456789</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="InputHomeAddress">Home Address</label>
+                        <input type="text" class="form-control" id="InputHomeAddress" placeholder="Your Address" name="inputHomeAddress">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputHomeAddress">Home Address</label>
+                        <input type="text" class="form-control" id="InputHomeAddress" placeholder="Your Address" name="inputHomeAddress">
+                    </div>
+                    <div class="form-group">
+                        <label>
+                            <input id="agreement" type="checkbox" name="agree" value="agree" onclick="tos()" checked='false' /> 
+                            <p id="agreestatement" style="display: inline">I accept the terms and conditions</p>
+                            <p id="tosdetails" style="display: inline">
+                                <br><br>
+                                By checking this box, you agree that your personal information will be used by the app for 
+                                its services to work.<br><br>
+                                Your personal information will be shared to business owners in order to verify the 
+                                legitemacy of the requests. 
+                                Only your name and contact number will be shared to business owners.
+                            </p>
+                        </label>
+                    </div>
+                    <button id="submitbtn" type="submit" class="btn btn-primary btn-block" style="display: none;">FINISH REGISTRATION</button>
+                    <script>
+                        function tos() {
+                            var val = $("#agreement").is(":checked");
+                            if (val) {
+                                $("#agreestatement").html("I accept the terms and conditions");
+                                $("#submitbtn").css("display", "block");
+                            }
+                            else {
+                                $("#agreestatement").html("I accept the terms and conditions");
+                                $("#submitbtn").css("display", "none");
+                            }
+                            $("#tosdetails").css("display", "none");
+                            
+                        }
+                        document.getElementById("agreement").checked = false;
+                    </script>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="overlay">
+        <div id="loader"></div>
+    </div>
+    <!-- ESSENTIAL SCRIPTS -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="bootstrap_dist/js/jquery-3.3.1.min.js "></script>
+    <script src="bootstrap_dist/js/bootstrap.js "></script>
+    <script src="bootstrap_validator_dist/js/bootstrapValidator.js"></script>
+    <script src="bootstrap_select_dist/js/bootstrap-select.js "></script>
+    <script src="jquery_mcustom_scrollbar_dist/js/jquery.mCustomScrollbar.js "></script>
+    <!-- FIREBASE -->
+    <script src="firebase_dist/firebase-app.js"></script>
+    <script src="firebase_dist/firebase-auth.js"></script>
+    <script src="firebase_dist/firebase-database.js"></script>
+    <script src="firebase_dist/firebase-storage.js"></script>
+    <!-- MY SCRIPT -->
+    <script src="js/signup-normal.js "></script>
+</body>
+
+</html>

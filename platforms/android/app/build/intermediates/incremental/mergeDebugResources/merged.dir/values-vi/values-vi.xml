@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Bật"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không hoạt động nếu bạn không bật dịch vụ của Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Bật dịch vụ của Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Cài đặt"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có dịch vụ của Google Play. Thiết bị của bạn bị thiếu dịch vụ này."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Cài đặt dịch vụ của Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Phạm vi cung cấp các dịch vụ của Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Lỗi dịch vụ của Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> đang gặp sự cố với các dịch vụ của Google Play. Hãy thử lại."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có các dịch vụ của Google Play. Thiết bị của bạn không hỗ trợ các dịch vụ này."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Cập nhật"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy trừ khi bạn cập nhật Dịch vụ của Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Cập nhật dịch vụ của Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> sẽ không chạy nếu không có dịch vụ của Google Play. Dịch vụ này hiện đang cập nhật."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Cần phiên bản mới của dịch vụ Google Play. Dịch vụ sẽ sớm tự động cập nhật."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Mở trên điện thoại"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Đăng nhập"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Đăng nhập bằng Google"</string>
+    <string name="pgm_api_key_error">Vui lòng thay \'API_KEY_FOR_ANDROID\' trong platforms/android/app/src/AndroidManifest.xml với API Key của bạn!</string>
+    <string name="pgm_can_not_get_location">Không thể xác định vị trí của bạn. Vui lòng thử lại..</string>
+    <string name="pgm_google_close_button">Đóng</string>
+    <string name="pgm_google_play_developer_error">Ứng dụng chưa được cấu hình. Lỗi này là nghiêm trọng và làm cho hệ thống ngừng hoạt động. Nhà phát triển cần kiểm tra hệ thống Logs để có hướng khắc phục cụ thể..</string>
+    <string name="pgm_google_play_error">Google Maps Android API v2 vì một lý do nào đó không hoạt động trên thiết bị của bạn.</string>
+    <string name="pgm_google_play_internal_error">Lỗi xảy ra với dịch vụ Google Play. Vui lòng khởi động lại để hệ thống hoạt động bình thường..</string>
+    <string name="pgm_google_play_invalid_account">Bạn sử dụng tài khoản không hợp lệ để kết nối với dịch vụ.</string>
+    <string name="pgm_google_play_license_check_failed">Người sử dụng không được cấp phép sử dụng ứng dụng. Lỗi này là nghiêm trọng và làm cho hệ thống ngừng hoạt động.</string>
+    <string name="pgm_google_play_network_error">Đường truyền mạng có lỗi. Vui lòng thử lại, và hệ thống sẽ hoạt động bình thường.</string>
+    <string name="pgm_google_play_service_disabled">Dịch vụ Google Play không hoạt động trên thiết bị của bạn. Vui lòng bật dịch vụ Google Play để hệ thống hoạt động.</string>
+    <string name="pgm_google_play_service_invalid">Dịch vụ Google Play cài đặt trên máy của bạn không hợp lệ. Vui lòng cập nhật dịch vụ Google Play trên Kho ứng dụng Google Play.</string>
+    <string name="pgm_google_play_service_missing">Dịch vụ Google PLay chưa được cài đặt trên thiết bị của bạn. Vui lòng cài đặt dịch vụ Google Play.</string>
+    <string name="pgm_google_play_service_update_required">Dịch vụ Google Play của bạn đã lỗi thời. Vui lòng cập nhật dịch vụ Google Play trên Kho ứng dụng Google Play.</string>
+    <string name="pgm_google_play_sign_in_required">Bạn chưa thực hiện đăng nhập để kết nối với dịch vụ. Vui lòng xem lại cấu hình dịch vụ Google Play.</string>
+    <string name="pgm_location_rejected_by_user">Người dùng không cho phép sử dụng dịch vụ xác định vị trí.</string>
+    <string name="pgm_no_location_providers">Thiết bị không hỗ trợ xác định vị trí vì vậy ứng dụng không thể xác định vị trí của bạn.</string>
+    <string name="pgm_no_location_service_is_disabled">Dịch vụ xác định vị trí không được kích hoạt.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

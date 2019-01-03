@@ -1,0 +1,271 @@
+-- Merging decision tree log ---
+provider#org.apache.cordova.camera.FileProvider
+INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:12:9-14:20
+	android:grantUriPermissions
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:12:92-126
+	android:authorities
+		INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:12:19-66
+	android:exported
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:12:67-91
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:12:127-180
+manifest
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [:tbxml-android:] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\6432e46497ada75e9c6bc24d7bec892f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\4a1355473b506f7d317a5bf4357d40a0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\392b2de32597441ff8dbaf0399bb5092\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\374ede9b2a10d70e0b67a147d2726a7c\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\2c6395917624ffabdd791ff035141b24\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\615cd5c95b28f3dc4e80ab27ee043409\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c53edddedc3f1ad2048862b8ade4c6b0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fb74758889fb9dea9f5de5769c5844be\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\bcb38c2033e95074e1f7b7b2f57247f7\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0be00160d4409b0110da19fd998597bd\AndroidManifest.xml:17:1-31:12
+MERGED from [:CordovaLib] C:\wamp64\www\crb_v1\platforms\android\CordovaLib\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:20:1-27:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d965788226385ca1df4a76a9457b73b5\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\2aff06d172e90f44279d8b7c949d34ab\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\7cddb2b708bbdbdc76f9bb34445bb420\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\005c33aac2acbf6000ba69e545fe28b9\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:102-130
+		INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:74-101
+		INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:11-45
+	xmlns:android
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:131-189
+	android:versionCode
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:2:46-73
+		INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:3:5-191
+	android:largeScreens
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:3:49-76
+	android:smallScreens
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:3:132-159
+	android:normalScreens
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:3:77-105
+	android:xlargeScreens
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:3:160-188
+	android:resizeable
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:3:106-131
+	android:anyDensity
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:3:23-48
+uses-permission#android.permission.INTERNET
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\4a1355473b506f7d317a5bf4357d40a0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\4a1355473b506f7d317a5bf4357d40a0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:5:5-17:19
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\4a1355473b506f7d317a5bf4357d40a0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\4a1355473b506f7d317a5bf4357d40a0\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\392b2de32597441ff8dbaf0399bb5092\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\392b2de32597441ff8dbaf0399bb5092\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\374ede9b2a10d70e0b67a147d2726a7c\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\374ede9b2a10d70e0b67a147d2726a7c\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\2c6395917624ffabdd791ff035141b24\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\2c6395917624ffabdd791ff035141b24\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\615cd5c95b28f3dc4e80ab27ee043409\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\615cd5c95b28f3dc4e80ab27ee043409\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c53edddedc3f1ad2048862b8ade4c6b0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c53edddedc3f1ad2048862b8ade4c6b0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fb74758889fb9dea9f5de5769c5844be\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fb74758889fb9dea9f5de5769c5844be\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\bcb38c2033e95074e1f7b7b2f57247f7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\bcb38c2033e95074e1f7b7b2f57247f7\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0be00160d4409b0110da19fd998597bd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0be00160d4409b0110da19fd998597bd\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d965788226385ca1df4a76a9457b73b5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d965788226385ca1df4a76a9457b73b5\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\2aff06d172e90f44279d8b7c949d34ab\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\2aff06d172e90f44279d8b7c949d34ab\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\7cddb2b708bbdbdc76f9bb34445bb420\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\7cddb2b708bbdbdc76f9bb34445bb420\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\005c33aac2acbf6000ba69e545fe28b9\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\005c33aac2acbf6000ba69e545fe28b9\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:5:114-140
+	android:label
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:5:81-113
+	android:hardwareAccelerated
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:5:18-52
+	android:icon
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:5:53-80
+activity#com.appStartup.crb.MainActivity
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:6:9-11:20
+	android:label
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:6:97-134
+	android:launchMode
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:6:135-165
+	android:windowSoftInputMode
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:6:257-299
+	android:configChanges
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:6:19-96
+	android:theme
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:6:194-256
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:6:166-193
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:7:13-10:29
+	android:label
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:7:28-65
+action#android.intent.action.MAIN
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:8:17-69
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:8:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:9:17-77
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:9:27-74
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:15:9-124
+	android:value
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:15:66-121
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:15:20-65
+meta-data#com.google.android.gms.version
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:16:9-122
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c53edddedc3f1ad2048862b8ade4c6b0\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c53edddedc3f1ad2048862b8ade4c6b0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:16:66-119
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:16:20-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:18:5-81
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:18:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:20:22-76
+uses-feature#android.hardware.location.gps
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:21:19-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\4a1355473b506f7d317a5bf4357d40a0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\4a1355473b506f7d317a5bf4357d40a0\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:22:22-76
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:23:5-72
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:23:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:24:5-73
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:24:22-70
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:25:5-71
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:25:22-68
+uses-feature#0x00020000
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:26:5-78
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\4a1355473b506f7d317a5bf4357d40a0\AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\4a1355473b506f7d317a5bf4357d40a0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:26:19-51
+	android:required
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:26:52-75
+uses-feature#android.hardware.location
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:27:5-62
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:27:19-59
+uses-sdk
+INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+MERGED from [:tbxml-android:] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\6432e46497ada75e9c6bc24d7bec892f\AndroidManifest.xml:7:5-9:41
+MERGED from [:tbxml-android:] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\6432e46497ada75e9c6bc24d7bec892f\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\4a1355473b506f7d317a5bf4357d40a0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-maps-15.0.1.aar\4a1355473b506f7d317a5bf4357d40a0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\392b2de32597441ff8dbaf0399bb5092\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-location-15.0.1.aar\392b2de32597441ff8dbaf0399bb5092\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\374ede9b2a10d70e0b67a147d2726a7c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\374ede9b2a10d70e0b67a147d2726a7c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\2c6395917624ffabdd791ff035141b24\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-15.0.1.aar\2c6395917624ffabdd791ff035141b24\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\615cd5c95b28f3dc4e80ab27ee043409\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-tasks-15.0.1.aar\615cd5c95b28f3dc4e80ab27ee043409\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c53edddedc3f1ad2048862b8ade4c6b0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-basement-15.0.1.aar\c53edddedc3f1ad2048862b8ade4c6b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fb74758889fb9dea9f5de5769c5844be\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fb74758889fb9dea9f5de5769c5844be\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\bcb38c2033e95074e1f7b7b2f57247f7\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\bcb38c2033e95074e1f7b7b2f57247f7\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0be00160d4409b0110da19fd998597bd\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0be00160d4409b0110da19fd998597bd\AndroidManifest.xml:21:5-23:61
+MERGED from [:CordovaLib] C:\wamp64\www\crb_v1\platforms\android\CordovaLib\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:5-44
+MERGED from [:CordovaLib] C:\wamp64\www\crb_v1\platforms\android\CordovaLib\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:25:5-44
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d965788226385ca1df4a76a9457b73b5\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d965788226385ca1df4a76a9457b73b5\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\2aff06d172e90f44279d8b7c949d34ab\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\2aff06d172e90f44279d8b7c949d34ab\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\7cddb2b708bbdbdc76f9bb34445bb420\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\7cddb2b708bbdbdc76f9bb34445bb420\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\005c33aac2acbf6000ba69e545fe28b9\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\005c33aac2acbf6000ba69e545fe28b9\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fb74758889fb9dea9f5de5769c5844be\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		ADDED from [:tbxml-android:] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\tbxml-android.aar\6432e46497ada75e9c6bc24d7bec892f\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:13:13-123
+	android:resource
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:13:75-120
+	android:name
+		ADDED from C:\wamp64\www\crb_v1\platforms\android\app\src\main\AndroidManifest.xml:13:24-74
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\374ede9b2a10d70e0b67a147d2726a7c\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\374ede9b2a10d70e0b67a147d2726a7c\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\374ede9b2a10d70e0b67a147d2726a7c\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\play-services-base-15.0.1.aar\374ede9b2a10d70e0b67a147d2726a7c\AndroidManifest.xml:24:13-79
+meta-data#android.support.VERSION
+ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fb74758889fb9dea9f5de5769c5844be\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\bcb38c2033e95074e1f7b7b2f57247f7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\bcb38c2033e95074e1f7b7b2f57247f7\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0be00160d4409b0110da19fd998597bd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\0be00160d4409b0110da19fd998597bd\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d965788226385ca1df4a76a9457b73b5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\d965788226385ca1df4a76a9457b73b5\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\2aff06d172e90f44279d8b7c949d34ab\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\2aff06d172e90f44279d8b7c949d34ab\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\7cddb2b708bbdbdc76f9bb34445bb420\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\7cddb2b708bbdbdc76f9bb34445bb420\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fb74758889fb9dea9f5de5769c5844be\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:support-v4:26.1.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\fb74758889fb9dea9f5de5769c5844be\AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\005c33aac2acbf6000ba69e545fe28b9\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\005c33aac2acbf6000ba69e545fe28b9\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Richard Orilla\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\005c33aac2acbf6000ba69e545fe28b9\AndroidManifest.xml:26:13-58

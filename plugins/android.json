@@ -1,0 +1,45 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.appStartup.crb"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.appStartup.crb"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.appStartup.crb"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "com.appStartup.crb"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.appStartup.crb"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.appStartup.crb"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.appStartup.crb"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.appStartup.crb"
+    },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "com.appStartup.crb"
+    },
+    "cordova-plugin-googlemaps": {
+      "API_KEY_FOR_ANDROID": "AIzaSyAG1NyL4qxy_CnXGz_6aFGK-g7qagmh6yc",
+      "PLAY_SERVICES_VERSION": "15.0.1",
+      "ANDROID_SUPPORT_V4_VERSION": "26.1.0",
+      "PACKAGE_NAME": "com.appStartup.crb"
+    }
+  },
+  "dependent_plugins": {}
+}

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Activer"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas tant que vous n\'aurez pas activé les services Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Activer les services Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Installer"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui ne sont pas installés sur votre appareil."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Installer les services Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Disponibilité des services Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Erreur liée aux services Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"L\'application <ns1:g id="APP_NAME">%1$s</ns1:g> rencontre des problèmes avec les services Google Play. Veuillez réessayer."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui ne sont pas compatibles avec votre appareil."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Mettre à jour"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas tant que vous n\'aurez pas mis à jour les services Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Mettre à jour les services Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> ne fonctionnera pas sans les services Google Play, qui sont en cours de mise à jour."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"La nouvelle version des services Google Play est nécessaire. Elle sera bientôt installée automatiquement."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Ouvrir sur le téléphone"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Se connecter"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Se connecter avec Google"</string>
+    <string name="pgm_api_key_error">Veuillez remplacer \"API_KEY_FOR_ANDROID\" dans le fichier platforms/android/app/src/AndroidManifest.xml avec votre propre clé API!</string>
+    <string name="pgm_can_not_get_location">Localisation introuvable. Veuillez réessayer.</string>
+    <string name="pgm_google_close_button">Fermer</string>
+    <string name="pgm_google_play_developer_error">L\'application a mal été configurée. Cette erreur n\'est pas récupérable et sera traitée comme étant fatale. Le développeur devrait inspecter le journal d\'erreur afin de trouver des informations plus précises.</string>
+    <string name="pgm_google_play_error">Google Maps Android API v2 n\'est pas disponible sur cet appareil pour une raison non identifiée.</string>
+    <string name="pgm_google_play_internal_error">Une erreur interne est intervenue au niveau du Google Play Services. Veuillez réessayer, cela devrait résoudre le problème.</string>
+    <string name="pgm_google_play_invalid_account">Vous avez tenté de vous connecter au service avec un nom de compte invalide.</string>
+    <string name="pgm_google_play_license_check_failed">L\'application ne contient pas de licence pour cet utilisateur. Cette erreur n\'est pas récupérable et sera traitée comme étant fatale.</string>
+    <string name="pgm_google_play_network_error">Un problème de réseau est intervenu. Veuillez réessayer, cela devrait résoudre le problème.</string>
+    <string name="pgm_google_play_service_disabled">La version du Google Play Services installée sur cet appareil a été désactivée. Veuillez activer le Google Play Services.</string>
+    <string name="pgm_google_play_service_invalid">La version du Google Play Services installée sur cet appareil n\'est pas authentique. Merci de mettre à jour le Google Play Services à partir du Google Play Store.</string>
+    <string name="pgm_google_play_service_missing">Google Play Services n\'est pas installé sur cet appareil. Merci d\'installer le Google Play Services.</string>
+    <string name="pgm_google_play_service_update_required">La version du Google Play Services installée sur cet appareil a expirée. Veuillez mettre à jour le Google Play Services à partir du Google Play Store.</string>
+    <string name="pgm_google_play_sign_in_required">Vous avez tenté de vous connecter au service, mais vous n\'est pas authentifié. Merci de vérifier la configuration du Google Play Services.</string>
+    <string name="pgm_location_rejected_by_user">Le service de localisation est rejeté par l\'utilisateur.</string>
+    <string name="pgm_no_location_providers">Cet appareil n\'est pas équipé d\'un service de localisation, cette application ne peut donc pas récupérer votre position.</string>
+    <string name="pgm_no_location_service_is_disabled">Le service de localisation est désactivé.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+</resources>

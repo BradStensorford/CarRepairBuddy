@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- ESSENTIALS STYLESHEET-->
+    <link rel="stylesheet" type="text/css" href="bootstrap_dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap_validator_dist/css/bootstrapValidator.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap_select_dist/css/bootstrap-select.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome_dist/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="jquery_mcustom_scrollbar_dist/css/jquery.mCustomScrollbar.css">
+    <!-- MY STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Car Repair Buddy</title>
+</head>
+
+<body>
+    <div id="content">
+        <nav class="navbar navbar-custom">
+            <button type="button" onclick="window.location.replace('login.html')" id="loginButtonBack" class="btn btn-info navbar-btn pull-left">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+            </button>
+            <h4 class="pull-left" style="margin: 15px 10px 5px 10px;">SIGN UP</h4>
+        </nav>
+        <div id="data-content-norm">
+            <div class="container-fluid" style="margin-bottom: 15px">
+                <form id="formUpData">
+                    <label>YOUR INFORMATION AREA</label>
+                    <hr>
+                    <div class="form-group">
+                        <div id="messages"></div>
+                    </div>
+                    <img id="smallImage" src="img/sample-profile.jpg" style="width:150px;height:150px;margin: 0 auto;" class="img-circle img-responsive">
+                    <div class="form-group">
+                        <label for="InputProfilePic">GET YOUR BEST IMAGE</label>
+                        <input id="InputProfilePic" type="file" onchange="preview_image(event)" name="inputImage">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputFirstName">First Name</label>
+                        <input type="text" class="form-control" id="InputFirstName" placeholder="Your First Name" name="inputFirstname">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputMiddleName" class="control-label">Middle Name</label>
+                        <input type="text" class="form-control" id="InputMiddleName" placeholder="Your Middle Name" name="inputMiddlename">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputLastName" class="control-label">Last Name</label>
+                        <input type="text" class="form-control" id="InputLastName" placeholder="You Last Name" name="inputLastname">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputLoginPassword" class="control-label">Password</label>
+                        <input type="password" class="form-control" id="InputLoginPassword" placeholder="Your desired password" name="inputPassword">
+                    </div>
+                    <hr>
+                    <label>BUSINESS INFORMATION AREA</label>
+                    <hr>
+                    <p><u>Pinned Marker of Your Store</u></p>
+                    <p class="help-block"><i>Note: Your could get your location, the longitude and latitude using google maps or other application that could provide it.</i></p>
+                    <div class="form-group">
+                        <label for="InputLat" class="control-label">Location: Latitude</label>
+                        <input type="decimal" class="form-control" id="InputLat" placeholder="Your Latitude of your store" name="inputLatitude">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputLon" class="control-label">Location: Longitude</label>
+                        <input type="decimal" class="form-control" id="InputLon" placeholder="Your Longitude of your store" name="inputLongitude">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputContactNumber" class="control-label">Contact Number</label>
+                        <input type="text" class="form-control" id="InputContactNumber" placeholder="Your Contact Number" name="inputContactNumber">
+                        <p class="help-block">Please start with 0. ex. 09123456789, <b>Note:</b> If Multiple contact number separate it with comma(,).</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="InputEmail" class="control-label">Email</label>
+                        <input type="text" class="form-control" id="InputEmail" placeholder="Your Email" name="inputEmail">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputBusinessAddress" class="control-label">Business Address</label>
+                        <input type="text" class="form-control" id="InputBusinessAddress" placeholder="Your Address" name="inputBusinessAddress">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputBusinessName" class="control-label">Business Name</label>
+                        <input type="text" class="form-control" id="InputBusinessName" placeholder="Business Name" name="inputBusinessName">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputWebUrl" class="control-label">Website</label>
+                        <input type="url" class="form-control" id="InputWebUrl" placeholder="www.your-url.com" name="inputWeburl">
+                        <p class="help-block"><i>Optional</i></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="InputBusinessHours" class="control-label">Business Hours</label>
+                        <input type="text" class="form-control" id="InputBusinessHours" placeholder="8AM to 5PM MONDAYS-SUNDAY" name="inputBusinessHours">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSelectBusinessType" class="control-label">Business Types</label>
+                        <select id="InputSelectBusinessType" class="selectpicker form-control" multiple="multiple" name="inputBusinessType">
+                            <option value="Parts">Parts Shop</option>
+                            <option value="Services">Services</option>
+                            <option value="Towing">Towing</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block" id="InputBusinessButton">FINISH REGISTRATION</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="overlay">
+        <div id="loader"></div>
+    </div>
+    <!-- ESSENTIAL SCRIPTS -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="bootstrap_dist/js/jquery-1.12.4.min.js "></script>
+    <script src="bootstrap_dist/js/bootstrap.js "></script>
+    <script src="bootstrap_validator_dist/js/bootstrapValidator.js"></script>
+    <script src="bootstrap_select_dist/js/bootstrap-select.js "></script>
+    <script src="jquery_mcustom_scrollbar_dist/js/jquery.mCustomScrollbar.js "></script>
+    <!-- FIREBASE -->
+    <script src="firebase_dist/firebase-app.js"></script>
+    <script src="firebase_dist/firebase-auth.js"></script>
+    <script src="firebase_dist/firebase-database.js"></script>
+    <script src="firebase_dist/firebase-storage.js"></script>
+    <!-- GEOFIRE -->
+    <script src="geofire_dist/geofire.min.js"></script>
+    <!-- MY SCRIPT -->
+    <script src="js/signup-business.js"></script>
+</body>
+
+</html>

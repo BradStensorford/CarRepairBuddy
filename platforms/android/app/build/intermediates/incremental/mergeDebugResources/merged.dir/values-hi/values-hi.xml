@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"चालू करें"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"जब तक आप Google Play सेवाएं चालू नहीं करते, <ns1:g id="APP_NAME">%1$s</ns1:g> काम नहीं करेगा."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Google Play सेवाएं चालू करें"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"इंस्टॉल करें"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके डिवाइस में उपलब्ध नहीं हैं."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Google Play सेवाएं इंस्टॉल करें"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Google Play सेवाएं उपलब्ध हैं"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Google Play सेवाओं से जुड़ी गड़बड़ी"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"<ns1:g id="APP_NAME">%1$s</ns1:g> को Google Play सेवाओं के साथ समस्या आ रही है. कृपया फिर से कोशिश करें."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके डिवाइस पर काम नहीं करती हैं."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"अपडेट करें"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> तब तक नहीं चलेगा जब तक आप Google Play सेवाओं को अपडेट नहीं करते."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Google Play सेवाओं को अपडेट करें"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"<ns1:g id="APP_NAME">%1$s</ns1:g> उन Google Play सेवाओं के बिना नहीं चलेगा जो अभी अपडेट हो रही हैं."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Google Play सेवाओं के नए वर्शन की ज़रूरत है. यह जल्द ही अपने आप अपडेट हो जाएगा."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"फ़ोन पर खोलें"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"साइन इन करें"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Google के ज़रिए साइन इन करें"</string>
+    <string name="pgm_api_key_error">कृपया platforms/android/app/src/AndroidManifest.xml मे \'API_KEY_FOR_ANDROID\' को  अपनी  एपीआई कुंजी से बदलें</string>
+    <string name="pgm_can_not_get_location">आप के स्थान का पता नही चल रहा है. कृप्या फिरसे प्रयास करें.</string>
+    <string name="pgm_google_close_button">बंद</string>
+    <string name="pgm_google_play_developer_error">यह एप्लिकेशन गलत तरीके से कॉन्फ़िगर किया गया है. इस त्रुटि को ठीक किया नहीं जासकता इसे घातक माना जायेगा. डेवलपर को चाहिए वे लोग में देखकर कार्रवाई योग्य प्राप्त करे.</string>
+    <string name="pgm_google_play_error">इस डिवाइस पर Google Maps Android API v2 उपलब्ध नहीं है</string>
+    <string name="pgm_google_play_internal_error">Google Play सेवाओं की एक आंतरिक त्रुटि हुई. कृप्या फिरसे प्रयास करें, इस से समस्या हल होनी चाहिए.</string>
+    <string name="pgm_google_play_invalid_account">आप ने एक अमान्य खाता नाम के साथ सेवा से जुड़ने का प्रयास है.</string>
+    <string name="pgm_google_play_license_check_failed">इस उपयोगकर्ता के पास इस एप्लीकेशन लाइसेंस नहीं है. इस त्रुटि को ठीक किया नहीं जासकता इसे घातक माना जायेग.</string>
+    <string name="pgm_google_play_network_error">एक नेटवर्क त्रुटि हुई. कृप्या फिरसे प्रयास करें, इस से समस्या हल होनी चाहिए.</string>
+    <string name="pgm_google_play_service_disabled">इस डिवाइस पर Google Play सेवाओं का स्थापित संस्करण अक्षम है. कृपया Google Play सेवाएं चालू करें.</string>
+    <string name="pgm_google_play_service_invalid">इस डिवाइस पर स्थापित Google Play सेवाओं का संस्करण प्रामाणिक नहीं है. कृपया Google Play Store से Google Play सेवाएं अपडेट करें.</string>
+    <string name="pgm_google_play_service_missing">इस डिवाइस पर Google Play सेवाएं मौजूद नहीं हैं. कृपया Google Play सेवाएं स्थापित करें.</string>
+    <string name="pgm_google_play_service_update_required">Google Play सेवाओं का स्थापित संस्करण पुराना है. कृपया Google Play Store से Google Play सेवाएं अपडेट करें.</string>
+    <string name="pgm_google_play_sign_in_required">आप ने साइन किये बिना इस सेवा से जुड़ने का प्रयास किया है. कृपया Google Play सेवाएं कॉन्फ़िगरेशन जांचें</string>
+    <string name="pgm_location_rejected_by_user">उपयोगकर्ता ने स्थान सेवा अस्वीकार कर दिया है.</string>
+    <string name="pgm_no_location_providers">इस डिवाइस में कोई स्थान प्रदाता नहीं है, इसके कारण यह ऐप आपके स्थान का पता नहीं लगा सकता.</string>
+    <string name="pgm_no_location_service_is_disabled">स्थान सेवा अक्षम है.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+</resources>

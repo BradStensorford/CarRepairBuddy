@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- ESSENTIALS STYLESHEET-->
+    <link rel="stylesheet" type="text/css" href="bootstrap_dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap_validator_dist/css/bootstrapValidator.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap_select_dist/css/bootstrap-select.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome_dist/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="jquery_mcustom_scrollbar_dist/css/jquery.mCustomScrollbar.css">
+    <!-- MY STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Car Repair Buddy</title>
+</head>
+
+<body>
+    <nav id="sidebar">
+        <div id="dismiss">
+            <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+        </div>
+        <div class="sidebar-header">
+            <h3>Car Repair Buddy</h3>
+        </div>
+        <div class="sidebar-profile">
+            <div class="image-parent">
+                <img src="" id="userImage" class="img-circle img-bordered img-responsive">
+            </div>
+            <div class="content">
+                <p id="userFullName" class="heading"></p>
+                <p id="userEmailAdd" class="subheading"></p>
+            </div>
+        </div>
+        <div class="sidebar-menu">
+            <ul class="list-unstyled components">
+                <li>
+                    <a href="dashboard-main-business.html"><i class="fa fa-address-card" aria-hidden="true"></i>My Dashboard</a>
+                </li>
+                <li class="active">
+                    <a href="dashboard-business.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>My Profile</a>
+                </li>
+                <li>
+                    <a href="index.html"><i class="fa fa-map" aria-hidden="true"></i>Map</a>
+                </li>
+                <li>
+                    <a href="settings-business.html"><i class='fa fa-cogs' aria-hidden='true'></i>Settings</a>
+                </li>
+                <li>
+                    <a href="feedback-business.html"><i class="fa fa-list-ul" aria-hidden="true"></i>Feedbacks</a>
+                </li>
+                <li>
+                    <a href="aboutus-business.html"><i class='fa fa-info-circle' aria-hidden='true'></i>About Us</a>
+                </li>
+                <li>
+                    <a href="#" data-toggle='modal' data-target='.bs-logout-modal'><i class='fa fa-sign-out' aria-hidden='true'></i>Sign Out</a>
+                </li>
+                <li>
+                    <a href="repairguides.html"><i class='fa fa-wrench' aria-hidden='true'></i>Car Repair Guides</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="content">
+        <nav class="navbar navbar-custom">
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn pull-left">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <h4 class="pull-left" style="margin: 15px 10px 5px 10px;">MY PROFILE</h4>
+        </nav>
+        <div id="data-content-norm">
+            <div class="container-fluid" style="margin-bottom: 15px">
+                <div>
+                    <label>YOUR INFORMATION AREA</label>
+                    <hr>
+                    <div class="form-group">
+                        <div id="messages"></div>
+                    </div>
+                    <img id="smallImage" src="img/sample-profile.jpg" style="width:150px;height:150px;margin: 0 auto;" class="img-circle img-responsive">
+                    <div class="form-group">
+                        <label for="InputProfilePic">GET YOUR BEST IMAGE</label>
+                        <input id="InputProfilePic" type="file" onchange="preview_image(event)" name="inputImage" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputFirstName">First Name</label>
+                        <input type="text" class="form-control" id="InputFirstName" placeholder="Your First Name" name="inputFirstname" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputMiddleName" class="control-label">Middle Name</label>
+                        <input type="text" class="form-control" id="InputMiddleName" placeholder="Your Middle Name" name="inputMiddlename" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputLastName" class="control-label">Last Name</label>
+                        <input type="text" class="form-control" id="InputLastName" placeholder="You Last Name" name="inputLastname" disabled="disabled">
+                    </div>
+                    <hr>
+                    <label>BUSINESS INFORMATION AREA</label>
+                    <hr>
+                    <p><u>Pinned Marker of Your Store</u></p>
+                    <p class="help-block"><i>Note: Your could get your location, the longitude and latitude using google maps or other application that could provide it.</i></p>
+                    <div class="form-group">
+                        <label for="InputLat" class="control-label">Location: Latitude</label>
+                        <input type="decimal" class="form-control" id="InputLat" placeholder="Your Latitude of your store" name="inputLatitude" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputLon" class="control-label">Location: Longitude</label>
+                        <input type="decimal" class="form-control" id="InputLon" placeholder="Your Longitude of your store" name="inputLongitude" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputContactNumber" class="control-label">Contact Number</label>
+                        <input type="text" class="form-control" id="InputContactNumber" placeholder="Your Contact Number" name="inputContactNumber" disabled="disabled">
+                        <p class="help-block">Please start with 0. ex. 09123456789, <b>Note:</b> If Multiple contact number separate it with comma(,).</p>
+                    </div>
+                    <div class="form-group">
+                        <label for="InputEmail" class="control-label">Email</label>
+                        <input type="text" class="form-control" id="InputEmail" placeholder="Your Email" name="inputEmail" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputBusinessAddress" class="control-label">Business Address</label>
+                        <input type="text" class="form-control" id="InputBusinessAddress" placeholder="Your Address" name="inputBusinessAddress" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputBusinessName" class="control-label">Business Name</label>
+                        <input type="text" class="form-control" id="InputBusinessName" placeholder="Business Name" name="inputBusinessName" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label for="InputWebUrl" class="control-label">Website</label>
+                        <input type="url" class="form-control" id="InputWebUrl" placeholder="www.your-url.com" name="inputWeburl" disabled="disabled">
+                        <p class="help-block"><i>Optional</i></p>
+                    </div>
+                    <div class="form-group">
+                        <label for="InputBusinessHours" class="control-label">Business Hours</label>
+                        <input type="text" class="form-control" id="InputBusinessHours" placeholder="8AM to 5PM MONDAYS-SUNDAY" name="inputBusinessHours" disabled="disabled">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputSelectBusinessType" class="control-label">Business Types</label>
+                        <select id="InputSelectBusinessType" class="selectpicker form-control" multiple="multiple" name="inputBusinessType" disabled="disabled">
+                            <option value="Parts">Parts Shop</option>
+                            <option value="Services">Services</option>
+                            <option value="Towing">Towing</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-primary btn-block" id="btnDashEdit" style="display: block;">Edit</button>
+                    <button class="btn btn-primary btn-block" id="btnDashSave" style="display: none;">Save</button>
+                </div>
+            </div>
+        </div>
+        <!-- LOGOUT -->
+        <div class="modal fade bs-logout-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Exit Application?</h5>
+                    </div>
+                    <div class="modal-body">
+                        <p>Want to log out your account?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                        <button type="button" class="btn btn-primary" id="logoutButton">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay">
+        <div id="loader"></div>
+    </div>
+    <!-- ESSENTIAL SCRIPTS -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="bootstrap_dist/js/jquery-1.12.4.min.js "></script>
+    <script src="bootstrap_dist/js/bootstrap.js "></script>
+    <script src="bootstrap_select_dist/js/bootstrap-select.js "></script>
+    <script src="jquery_mcustom_scrollbar_dist/js/jquery.mCustomScrollbar.js "></script>
+    <!-- FIREBASE -->
+    <script src="firebase_dist/firebase-app.js"></script>
+    <script src="firebase_dist/firebase-auth.js"></script>
+    <script src="firebase_dist/firebase-database.js"></script>
+    <script src="firebase_dist/firebase-storage.js"></script>
+    <!-- GEOFIRE -->
+    <script src="geofire_dist/geofire.min.js"></script>
+    <!-- MY SCRIPT -->
+    <script src="js/menu.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="js/dashboard-business.js"></script>
+</body>
+
+</html>

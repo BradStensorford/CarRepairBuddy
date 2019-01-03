@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="8585111718777012708" name="common_google_play_services_enable_button">"Включить"</string>
+    <string msgid="7045129128108380659" name="common_google_play_services_enable_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется включить сервисы Google Play."</string>
+    <string msgid="3147157405986503375" name="common_google_play_services_enable_title">"Включите сервисы Google Play"</string>
+    <string msgid="9115728400623041681" name="common_google_play_services_install_button">"Установить"</string>
+    <string msgid="8179894293032530091" name="common_google_play_services_install_text">"Для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуется установить сервисы Google Play."</string>
+    <string msgid="7442193194585196676" name="common_google_play_services_install_title">"Установите сервисы Google Play"</string>
+    <string msgid="4293541511340436975" name="common_google_play_services_notification_channel_name">"Доступность сервисов Google Play"</string>
+    <string msgid="180394615667698242" name="common_google_play_services_notification_ticker">"Ошибка сервисов Google Play"</string>
+    <string msgid="2518680582564677258" name="common_google_play_services_unknown_issue">"Приложению \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" не удается подключиться к сервисам Google Play. Повторите попытку."</string>
+    <string msgid="5501187292256987189" name="common_google_play_services_unsupported_text">"Для работы с приложением \"<ns1:g id="APP_NAME">%1$s</ns1:g>\" требуются сервисы Google Play. Они не поддерживаются на вашем устройстве."</string>
+    <string msgid="8172070149091615356" name="common_google_play_services_update_button">"Обновить"</string>
+    <string msgid="7773943415006962566" name="common_google_play_services_update_text">"Чтобы запустить приложение \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", обновите сервисы Google Play."</string>
+    <string msgid="8706675115216073244" name="common_google_play_services_update_title">"Обновите сервисы Google Play"</string>
+    <string msgid="7894275749778928941" name="common_google_play_services_updating_text">"Сервисы Google Play, необходимые для работы приложения \"<ns1:g id="APP_NAME">%1$s</ns1:g>\", в настоящий момент обновляются."</string>
+    <string msgid="2804989272736383918" name="common_google_play_services_wear_update_text">"Версия сервисов Google Play устарела. Они автоматически обновятся в ближайшее время."</string>
+    <string msgid="5201977337835724196" name="common_open_on_phone">"Открыть на телефоне"</string>
+    <string msgid="3441753203274453993" name="common_signin_button_text">"Войти"</string>
+    <string msgid="669893613918351210" name="common_signin_button_text_long">"Войти через аккаунт Google"</string>
+    <string name="pgm_api_key_error">Пожалуйста, замените \'API_KEY_FOR_ANDROID\' в platforms/android/app/src/AndroidManifest.xml на Ваш API ключ!</string>
+    <string name="pgm_can_not_get_location">Не удается определить Ваше местоположение. Попробуй еще раз.</string>
+    <string name="pgm_google_close_button">Закрыть</string>
+    <string name="pgm_google_play_developer_error">Приложение неправильно настроено. Произошла фатальная ошибка. Разработчик приложения должен посмотреть в логи, чтобы исправить ошибку.</string>
+    <string name="pgm_google_play_error">По какой то причине Google Maps Android API v2 не доступен на этом устройстве.</string>
+    <string name="pgm_google_play_internal_error">Произошла внутренняя ошибка Google Play Services. Пожалуйста, повторите попытку для решения проблемы.</string>
+    <string name="pgm_google_play_invalid_account">Вы попытались подключиться к сервису с недопустимым именем учетной записи.</string>
+    <string name="pgm_google_play_license_check_failed">Произошла фатальная ошибка. Приложение не лицензировано для этого пользователя.</string>
+    <string name="pgm_google_play_network_error">Произошла сетевая ошибка. Пожалуйста, повторите попытку для решения проблемы.</string>
+    <string name="pgm_google_play_service_disabled">Установленная версия Google Play Services отключена на этом устройстве. Пожалуйста, включите Google Play Services.</string>
+    <string name="pgm_google_play_service_invalid">Версия Google Play Services установлена на этом уствройстве не подлинная. Пожалуйста, обновите Google Play Services из Google Play Store.</string>
+    <string name="pgm_google_play_service_missing">Google Play Services отсутствует на этом устройстве. Пожалуйста, установите Google Play Services.</string>
+    <string name="pgm_google_play_service_update_required">Установленная версия Google Play Services устаревшая. Пожалуйста, обновите Google Play Services из Google Play Store.</string>
+    <string name="pgm_google_play_sign_in_required">Вы попытались подключиться к сервису, но вы не вошли в систему. Пожалуйста, проверьте конфигурацию Google Play Services.</string>
+    <string name="pgm_location_rejected_by_user">Определение местоположения отклонено пользователем.</string>
+    <string name="pgm_no_location_providers">Поскольку это устройство не поддерживает поиск местоположения, это приложение не может определить Ваше расположение.</string>
+    <string name="pgm_no_location_service_is_disabled">Сервис определения местоположения отключен.</string>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+</resources>

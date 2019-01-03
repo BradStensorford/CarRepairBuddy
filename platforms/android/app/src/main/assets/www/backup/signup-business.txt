@@ -1,0 +1,50 @@
+dbRef.child("PendingUsers").child(userCurrent.uid).set({
+                        users_firstName: df1.toString().trim(),
+                        users_middleName: df2.toString().trim(),
+                        users_lastName: df3.toString().trim(),
+                        users_loginPass: df4.toString().trim(),
+                        users_emailAdd: df8.replace("%40", "@").toString().trim(),
+                        users_type: 1,
+                        users_imageProfile: downloadURL
+                    });
+
+                    var fullname = df1.toString().trim() + " " + df2.toString().charAt(0) + ". " + df3.toString().trim();
+
+                    dbRef.child("PendingBusinessPerson").child(userCurrent.uid).set({
+                        business_owner: fullname,
+                        business_name: df10.toString().trim(),
+                        business_hours: df11.toString().trim(),
+                        business_types: df12.join(","),
+                        business_website: webUrl,
+                        business_address: df9.toString().trim(),
+                        business_contactNumber: df7.toString().trim(),
+                        business_image: downloadURL
+                    });
+
+                    userCurrent.updateProfile({
+                        displayName: fullname,
+                        photoURL: downloadURL
+                    }).then(function() {
+                        console.log('success update user');
+                    });
+
+                    var businessStoreRef = dbRef.child("PendingBusinessStoresLocation");
+                    var geoFire = new GeoFire(businessStoreRef);
+
+                    var latlng = JSON.parse("[" + df5.toString().trim() + "," + df6.toString().trim() + "]");
+
+                    geoFire.set(userCurrent.uid, latlng).then(function() {
+                        console.log("Provided keys have been added to GeoFire");
+                    }, function(error) {
+                        console.log("Error: " + error);
+                    });
+
+                    dbRef.child("PendingBusinessStores").child(userCurrent.uid).set({
+                        business_name: df10.toString().trim(),
+                        business_hours: df11.toString().trim(),
+                        business_types: df12.join(","),
+                        business_website: webUrl,
+                        business_address: df9.toString().trim(),
+                        business_contactNumber: df7.toString().trim(),
+                        business_image: downloadURL
+                    });

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <!-- ESSENTIALS STYLESHEET-->
+    <link rel="stylesheet" type="text/css" href="bootstrap_dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap_validator_dist/css/bootstrapValidator.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap_select_dist/css/bootstrap-select.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome_dist/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="jquery_mcustom_scrollbar_dist/css/jquery.mCustomScrollbar.css">
+    <!-- MY STYLESHEET -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <title>Car Repair Buddy</title>
+</head>
+
+<body>
+    <nav id="sidebar">
+        <div id="dismiss">
+            <i class="fa fa-chevron-circle-left" aria-hidden="true"></i>
+        </div>
+        <div class="sidebar-header">
+            <h3>Car Repair Buddy</h3>
+        </div>
+        <div class="sidebar-profile">
+            <div class="image-parent">
+                <img src="" id="userImage" class="img-circle img-bordered img-responsive">
+            </div>
+            <div class="content">
+                <p id="userFullName" class="heading"></p>
+                <p id="userEmailAdd" class="subheading"></p>
+            </div>
+        </div>
+        <div class="sidebar-menu">
+            <ul class="list-unstyled components">
+                <li><a href="index-normal.html"><i class='fa fa-home' aria-hidden='true'></i>Home</a></li>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false"><i class='fa fa-search' aria-hidden='true'></i>Looking For</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li><a href="shopItem.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Parts</a></li>
+                        <li class="active"><a href="shopservice.html"><i class="fa fa-car" aria-hidden="true"></i>Services</a></li>
+                        <li><a href="shoptowing.html"><i class="fa fa-car" aria-hidden="true"></i>Towing</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="dashboard-normal.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>My Profile</a>
+                </li>
+                <li>
+                    <a href="settings-normal.html"><i class='fa fa-cogs' aria-hidden='true'></i>Settings</a>
+                </li>
+                <li>
+                    <a href="feedback-normal.html"><i class="fa fa-list-ul" aria-hidden="true"></i>My Feedbacks</a>
+                </li>
+                <li>
+                    <a href="aboutus-normal.html"><i class='fa fa-info-circle' aria-hidden='true'></i>About Us</a>
+                </li>
+                <li>
+                    <a href="#" data-toggle='modal' data-target='.bs-logout-modal'><i class='fa fa-sign-out' aria-hidden='true'></i>Sign Out</a>
+                </li>
+                <li>
+                    <a href="repairguides.html"><i class='fa fa-wrench' aria-hidden='true'></i>Car Repair Guides</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="content">
+        <nav class="navbar-map">
+            <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn pull-left">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <h4 class="pull-left" style="margin: 15px 10px 5px 10px;color: white;">SERVICES</h4>
+        </nav>
+        <div id="data-content-norm0">
+            <div id="ListServicesItems" class="row" style="margin:0;padding:10px;">
+                <input class="search form-control" type="text" placeholder="Search Here" style="margin-bottom: 10px;"></input>
+                <ul class="list media-list list-group">
+                </ul>
+                <ul class="pagination"></ul>
+            </div>
+        </div>
+        <!-- LOGOUT -->
+        <div class="modal fade bs-logout-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Exit Application?</h5>
+                    </div>
+                    <div class="modal-body">
+                        <p>Want to log out your account?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+                        <button type="button" class="btn btn-primary" id="logoutButton">Yes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- LOGOUT -->
+        <div class="modal fade" id="showDataModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header clearfix">
+                        <button type="button" class="close" onclick="closeModal()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h5 class="modal-title"><strong>INFORMATION</strong></h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="serviceName">Services</label>
+                            <input type="text" class="form-control" id="serviceName" readonly="readonly">
+                        </div>
+                        <div class="form-group">
+                            <label for="serviceOwner">By:</label>
+                            <input type="text" class="form-control" id="serviceOwner" readonly="readonly">
+                        </div>
+                        <div class="form-group">
+                            <label for="serviceAddress">Address</label>
+                            <input type="text" class="form-control" id="serviceAddress" readonly="readonly">
+                        </div>
+                        <div class="form-group">
+                            <label>Contact:</label>
+                            <ul id="contact_ul">
+                            </ul>
+                        </div>
+                        <button class="btn btn-info btn-block" data-toggle="modal" data-target=".bs-feedback-modal">GIVE US A FEEDBACK</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FEEDBACK -->
+        <div class="modal fade bs-feedback-modal" id="feedbackModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h5 class="modal-title">FEEDBACK</h5>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group" style="display: none;">
+                            <label>Owner id:</label>
+                            <input type="text" id="feedbackServiceOwnerId" class="form-control" readonly="readonly">
+                        </div>
+                        <div class="form-group" style="display: none;">
+                            <label>Owner Name:</label>
+                            <input type="text" id="feedbackServiceOwnerName" class="form-control" readonly="readonly">
+                        </div>
+                        <div class="form-group" style="display: none;">
+                            <label>Service Name:</label>
+                            <input type="text" id="feedbackServiceName" class="form-control" readonly="readonly">
+                        </div>
+                        <div class="form-group">
+                            <label>Service Id:</label>
+                            <input type="text" id="feedbackServiceId" class="form-control" readonly="readonly">
+                        </div>
+                        <div class="form-group">
+                            <label>Message:</label>
+                            <textarea id="serviceFeedbackTextArea" class="form-control" rows="3"></textarea>
+                        </div>
+                        <button onclick="serviceFeedbackButton()" type="button" class="btn btn-success btn-block">SEND <i class="fa fa-share-square-o" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="overlay"></div>
+    <!-- ESSENTIAL SCRIPTS -->
+    <script type="text/javascript" src="cordova.js"></script>
+    <script src="bootstrap_dist/js/jquery-1.12.4.min.js "></script>
+    <script src="bootstrap_dist/js/bootstrap.js "></script>
+    <script src="bootstrap_select_dist/js/bootstrap-select.js "></script>
+    <script src="jquery_mcustom_scrollbar_dist/js/jquery.mCustomScrollbar.js "></script>
+    <!-- FIREBASE -->
+    <script src="firebase_dist/firebase-app.js"></script>
+    <script src="firebase_dist/firebase-auth.js"></script>
+    <script src="firebase_dist/firebase-database.js"></script>
+    <script src="firebase_dist/firebase-storage.js"></script>
+    <!-- SMS SCRIPT -->
+    <script src="js/sms-link.min.js"></script>
+    <!-- MY SCRIPT -->
+    <script src="js/menu.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="js/list.js"></script>
+    <script src="js/shopservice.js"></script>
+</body>
+
+</html>

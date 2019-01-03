@@ -1,0 +1,4 @@
+#Thu Jan 03 19:04:32 SGT 2019
+base.0=C\:\\wamp64\\www\\crb_v1\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
